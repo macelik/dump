@@ -1,0 +1,44 @@
+2021-10-27 09:58:07    Task for /mnt/c/Users/maste/Desktop/MAGUs/aligned1.txt threw an exception:
+unsupported operand type(s) for +: 'int' and 'NoneType'
+2021-10-27 09:58:07    Traceback (most recent call last):
+  File "/mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tasks/task.py", line 59, in run
+    func(**self.taskArgs)
+  File "/mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/align/aligner.py", line 52, in runAlignmentTask
+    mergeSubalignments(context)
+  File "/mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/align/merge/merger.py", line 23, in mergeSubalignments
+    buildGraph(context)
+  File "/mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/align/merge/graph_build/graph_builder.py", line 38, in buildGraph
+    context.graph.initializeMatrix()
+  File "/mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/align/merge/alignment_graph.py", line 50, in initializeMatrix
+    self.matrixSize = sum(self.subalignmentLengths)
+TypeError: unsupported operand type(s) for +: 'int' and 'NoneType'
+
+2021-10-27 09:58:07    Task manager found a failed task: /mnt/c/Users/maste/Desktop/MAGUs/aligned1.txt
+2021-10-27 09:58:07    MAGUS aborted with an exception..
+2021-10-27 09:58:07    Traceback (most recent call last):
+  File "./MAGUS-master/magus.py", line 29, in main
+    mainAlignmentTask()
+  File "/mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/align/aligner.py", line 30, in mainAlignmentTask
+    task.awaitTask()
+  File "/mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tasks/task.py", line 47, in awaitTask
+    awaitTasks([self])
+  File "/mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tasks/task.py", line 94, in awaitTasks
+    controller.awaitTasks(tasks)
+  File "/mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tasks/controller.py", line 34, in awaitTasks
+    observeTaskManager()
+  File "/mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tasks/controller.py", line 53, in observeTaskManager
+    runTask(task)
+  File "/mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tasks/manager.py", line 219, in runTask
+    task.run()
+  File "/mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tasks/task.py", line 59, in run
+    func(**self.taskArgs)
+  File "/mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/align/aligner.py", line 52, in runAlignmentTask
+    mergeSubalignments(context)
+  File "/mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/align/merge/merger.py", line 23, in mergeSubalignments
+    buildGraph(context)
+  File "/mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/align/merge/graph_build/graph_builder.py", line 38, in buildGraph
+    context.graph.initializeMatrix()
+  File "/mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/align/merge/alignment_graph.py", line 50, in initializeMatrix
+    self.matrixSize = sum(self.subalignmentLengths)
+TypeError: unsupported operand type(s) for +: 'int' and 'NoneType'
+

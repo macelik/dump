@@ -1,0 +1,227 @@
+2021-10-27 09:56:38    MAGUS was run with: ./MAGUS-master/magus.py -d outputs1 -i PB1.fasta -o aligned1.txt
+2021-10-27 09:56:38    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/aligned1.txt
+2021-10-27 09:56:38    Aligning sequences /mnt/c/Users/maste/Desktop/MAGUs/PB1.fasta
+2021-10-27 09:56:38    Building PASTA-style FastTree initial tree on /mnt/c/Users/maste/Desktop/MAGUs/PB1.fasta with skeleton size 300..
+2021-10-27 09:56:38    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/initial_tree/initial_align.txt
+2021-10-27 09:56:38    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 12 --anysymbol /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/initial_tree/skeleton_sequences.txt > /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/initial_tree/temp_initial_align.txt
+2021-10-27 09:57:00    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/initial_tree/initial_align.txt
+2021-10-27 09:57:00    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/initial_tree/skeleton_hmm/hmm_model.txt
+2021-10-27 09:57:00    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/hmmer/hmmbuild --ere 0.59 --cpu 1 --symfrac 0.0 --informat afa /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/initial_tree/skeleton_hmm/temp_hmm_model.txt /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/initial_tree/initial_align.txt
+2021-10-27 09:57:00    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/initial_tree/skeleton_hmm/hmm_model.txt
+2021-10-27 09:57:00    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/initial_tree/chunks_queries/queries_chunk_1_aligned.txt
+2021-10-27 09:57:00    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/hmmer/hmmalign -o /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/initial_tree/chunks_queries/temp_queries_chunk_1_aligned.txt /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/initial_tree/skeleton_hmm/hmm_model.txt /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/initial_tree/chunks_queries/queries_chunk_1.txt
+2021-10-27 09:57:04    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/initial_tree/chunks_queries/queries_chunk_1_aligned.txt
+2021-10-27 09:57:04    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/initial_tree/chunks_queries/queries_chunk_2_aligned.txt
+2021-10-27 09:57:04    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/hmmer/hmmalign -o /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/initial_tree/chunks_queries/temp_queries_chunk_2_aligned.txt /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/initial_tree/skeleton_hmm/hmm_model.txt /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/initial_tree/chunks_queries/queries_chunk_2.txt
+2021-10-27 09:57:08    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/initial_tree/chunks_queries/queries_chunk_2_aligned.txt
+2021-10-27 09:57:08    Data type wasn't specified. Inferred data type PROTEIN from /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/initial_tree/initial_align.txt
+2021-10-27 09:57:08    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/initial_tree/initial_tree.tre
+2021-10-27 09:57:08    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/fasttree/FastTreeMP -lg -fastest -nosupport /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/initial_tree/initial_align.txt > /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/initial_tree/temp_initial_tree.tre
+2021-10-27 09:58:04    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/initial_tree/initial_tree.tre
+2021-10-27 09:58:04    Built initial tree on /mnt/c/Users/maste/Desktop/MAGUs/PB1.fasta in 86.67542815208435 sec..
+2021-10-27 09:58:04    Using target subset size of 50, and maximum number of subsets 25..
+2021-10-27 09:58:04    Decomposing a tree with 2174 leaves into 1069 and 1105..
+2021-10-27 09:58:04    Decomposing a tree with 1105 leaves into 509 and 596..
+2021-10-27 09:58:04    Decomposing a tree with 1069 leaves into 604 and 465..
+2021-10-27 09:58:04    Decomposing a tree with 604 leaves into 349 and 255..
+2021-10-27 09:58:04    Decomposing a tree with 596 leaves into 290 and 306..
+2021-10-27 09:58:04    Decomposing a tree with 509 leaves into 251 and 258..
+2021-10-27 09:58:04    Decomposing a tree with 465 leaves into 194 and 271..
+2021-10-27 09:58:04    Decomposing a tree with 349 leaves into 176 and 173..
+2021-10-27 09:58:04    Decomposing a tree with 306 leaves into 197 and 109..
+2021-10-27 09:58:04    Decomposing a tree with 290 leaves into 128 and 162..
+2021-10-27 09:58:04    Decomposing a tree with 271 leaves into 125 and 146..
+2021-10-27 09:58:04    Decomposing a tree with 258 leaves into 128 and 130..
+2021-10-27 09:58:04    Decomposing a tree with 255 leaves into 165 and 90..
+2021-10-27 09:58:04    Decomposing a tree with 251 leaves into 124 and 127..
+2021-10-27 09:58:04    Decomposing a tree with 197 leaves into 99 and 98..
+2021-10-27 09:58:04    Decomposing a tree with 194 leaves into 102 and 92..
+2021-10-27 09:58:04    Decomposing a tree with 176 leaves into 92 and 84..
+2021-10-27 09:58:04    Decomposing a tree with 173 leaves into 87 and 86..
+2021-10-27 09:58:04    Decomposing a tree with 165 leaves into 78 and 87..
+2021-10-27 09:58:04    Decomposing a tree with 162 leaves into 93 and 69..
+2021-10-27 09:58:04    Decomposing a tree with 146 leaves into 86 and 60..
+2021-10-27 09:58:04    Decomposing a tree with 130 leaves into 67 and 63..
+2021-10-27 09:58:04    Decomposing a tree with 128 leaves into 77 and 51..
+2021-10-27 09:58:04    Decomposing a tree with 128 leaves into 79 and 49..
+2021-10-27 09:58:05    Decomposed /mnt/c/Users/maste/Desktop/MAGUs/PB1.fasta into 25 subsets in 86.95199871063232 sec..
+2021-10-27 09:58:05    Building 25 subalignments..
+2021-10-27 09:58:05    Subset has 0/200 sequences, aligning with MAFFT..
+2021-10-27 09:58:05    Subset has 0/200 sequences, aligning with MAFFT..
+2021-10-27 09:58:05    Subset has 0/200 sequences, aligning with MAFFT..
+2021-10-27 09:58:05    Subset has 0/200 sequences, aligning with MAFFT..
+2021-10-27 09:58:05    Subset has 0/200 sequences, aligning with MAFFT..
+2021-10-27 09:58:05    Subset has 0/200 sequences, aligning with MAFFT..
+2021-10-27 09:58:05    Subset has 0/200 sequences, aligning with MAFFT..
+2021-10-27 09:58:05    Subset has 0/200 sequences, aligning with MAFFT..
+2021-10-27 09:58:05    Subset has 0/200 sequences, aligning with MAFFT..
+2021-10-27 09:58:05    Subset has 0/200 sequences, aligning with MAFFT..
+2021-10-27 09:58:05    Subset has 0/200 sequences, aligning with MAFFT..
+2021-10-27 09:58:05    Subset has 0/200 sequences, aligning with MAFFT..
+2021-10-27 09:58:05    Subset has 0/200 sequences, aligning with MAFFT..
+2021-10-27 09:58:05    Subset has 0/200 sequences, aligning with MAFFT..
+2021-10-27 09:58:05    Subset has 0/200 sequences, aligning with MAFFT..
+2021-10-27 09:58:05    Subset has 0/200 sequences, aligning with MAFFT..
+2021-10-27 09:58:05    Subset has 0/200 sequences, aligning with MAFFT..
+2021-10-27 09:58:05    Subset has 0/200 sequences, aligning with MAFFT..
+2021-10-27 09:58:05    Subset has 0/200 sequences, aligning with MAFFT..
+2021-10-27 09:58:05    Subset has 0/200 sequences, aligning with MAFFT..
+2021-10-27 09:58:05    Subset has 0/200 sequences, aligning with MAFFT..
+2021-10-27 09:58:05    Subset has 0/200 sequences, aligning with MAFFT..
+2021-10-27 09:58:05    Subset has 0/200 sequences, aligning with MAFFT..
+2021-10-27 09:58:05    Subset has 0/200 sequences, aligning with MAFFT..
+2021-10-27 09:58:05    Subset has 0/200 sequences, aligning with MAFFT..
+2021-10-27 09:58:05    Prepared 25 subset alignment tasks..
+2021-10-27 09:58:05    Merging 25 subaligments..
+2021-10-27 09:58:05    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_17.txt
+2021-10-27 09:58:05    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 12 --anysymbol /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/subset_17.txt > /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/temp_subalignment_subset_17.txt
+2021-10-27 09:58:05    Using 10 MAFFT backbones..
+2021-10-27 09:58:05    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/backbone_7_mafft.txt
+2021-10-27 09:58:05    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 12 --anysymbol /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/backbone_7_unalign.txt > /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/temp_backbone_7_mafft.txt
+2021-10-27 09:58:05    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_17.txt
+2021-10-27 09:58:05    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_2.txt
+2021-10-27 09:58:05    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 12 --anysymbol /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/subset_2.txt > /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/temp_subalignment_subset_2.txt
+2021-10-27 09:58:05    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/backbone_3_mafft.txt
+2021-10-27 09:58:05    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 12 --anysymbol /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/backbone_3_unalign.txt > /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/temp_backbone_3_mafft.txt
+2021-10-27 09:58:05    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/backbone_7_mafft.txt
+2021-10-27 09:58:05    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_8.txt
+2021-10-27 09:58:05    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 12 --anysymbol /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/subset_8.txt > /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/temp_subalignment_subset_8.txt
+2021-10-27 09:58:05    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/backbone_9_mafft.txt
+2021-10-27 09:58:05    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 12 --anysymbol /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/backbone_9_unalign.txt > /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/temp_backbone_9_mafft.txt
+2021-10-27 09:58:05    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_2.txt
+2021-10-27 09:58:05    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/backbone_3_mafft.txt
+2021-10-27 09:58:05    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_18.txt
+2021-10-27 09:58:05    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 12 --anysymbol /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/subset_18.txt > /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/temp_subalignment_subset_18.txt
+2021-10-27 09:58:05    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_16.txt
+2021-10-27 09:58:05    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 12 --anysymbol /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/subset_16.txt > /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/temp_subalignment_subset_16.txt
+2021-10-27 09:58:05    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_1.txt
+2021-10-27 09:58:05    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 12 --anysymbol /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/subset_1.txt > /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/temp_subalignment_subset_1.txt
+2021-10-27 09:58:05    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_8.txt
+2021-10-27 09:58:05    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/backbone_9_mafft.txt
+2021-10-27 09:58:05    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_15.txt
+2021-10-27 09:58:05    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 12 --anysymbol /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/subset_15.txt > /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/temp_subalignment_subset_15.txt
+2021-10-27 09:58:05    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_20.txt
+2021-10-27 09:58:05    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 12 --anysymbol /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/subset_20.txt > /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/temp_subalignment_subset_20.txt
+2021-10-27 09:58:05    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_4.txt
+2021-10-27 09:58:05    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 12 --anysymbol /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/subset_4.txt > /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/temp_subalignment_subset_4.txt
+2021-10-27 09:58:05    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_16.txt
+2021-10-27 09:58:05    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_18.txt
+2021-10-27 09:58:05    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/backbone_2_mafft.txt
+2021-10-27 09:58:05    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 12 --anysymbol /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/backbone_2_unalign.txt > /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/temp_backbone_2_mafft.txt
+2021-10-27 09:58:05    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/backbone_6_mafft.txt
+2021-10-27 09:58:05    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 12 --anysymbol /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/backbone_6_unalign.txt > /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/temp_backbone_6_mafft.txt
+2021-10-27 09:58:05    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_20.txt
+2021-10-27 09:58:05    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_1.txt
+2021-10-27 09:58:05    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_15.txt
+2021-10-27 09:58:05    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/backbone_10_mafft.txt
+2021-10-27 09:58:05    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 12 --anysymbol /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/backbone_10_unalign.txt > /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/temp_backbone_10_mafft.txt
+2021-10-27 09:58:05    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_24.txt
+2021-10-27 09:58:05    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 12 --anysymbol /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/subset_24.txt > /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/temp_subalignment_subset_24.txt
+2021-10-27 09:58:05    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/backbone_4_mafft.txt
+2021-10-27 09:58:05    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 12 --anysymbol /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/backbone_4_unalign.txt > /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/temp_backbone_4_mafft.txt
+2021-10-27 09:58:06    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_4.txt
+2021-10-27 09:58:06    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/backbone_8_mafft.txt
+2021-10-27 09:58:06    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 12 --anysymbol /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/backbone_8_unalign.txt > /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/temp_backbone_8_mafft.txt
+2021-10-27 09:58:06    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/backbone_1_mafft.txt
+2021-10-27 09:58:06    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 12 --anysymbol /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/backbone_1_unalign.txt > /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/temp_backbone_1_mafft.txt
+2021-10-27 09:58:06    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/backbone_6_mafft.txt
+2021-10-27 09:58:06    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/backbone_2_mafft.txt
+2021-10-27 09:58:06    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/backbone_5_mafft.txt
+2021-10-27 09:58:06    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 12 --anysymbol /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/backbone_5_unalign.txt > /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/temp_backbone_5_mafft.txt
+2021-10-27 09:58:06    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/backbone_10_mafft.txt
+2021-10-27 09:58:06    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_24.txt
+2021-10-27 09:58:06    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_3.txt
+2021-10-27 09:58:06    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 12 --anysymbol /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/subset_3.txt > /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/temp_subalignment_subset_3.txt
+2021-10-27 09:58:06    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_6.txt
+2021-10-27 09:58:06    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 12 --anysymbol /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/subset_6.txt > /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/temp_subalignment_subset_6.txt
+2021-10-27 09:58:06    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_13.txt
+2021-10-27 09:58:06    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 12 --anysymbol /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/subset_13.txt > /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/temp_subalignment_subset_13.txt
+2021-10-27 09:58:06    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/backbone_4_mafft.txt
+2021-10-27 09:58:06    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_23.txt
+2021-10-27 09:58:06    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/backbone_8_mafft.txt
+2021-10-27 09:58:06    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 12 --anysymbol /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/subset_23.txt > /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/temp_subalignment_subset_23.txt
+2021-10-27 09:58:06    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/backbone_1_mafft.txt
+2021-10-27 09:58:06    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_7.txt
+2021-10-27 09:58:06    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 12 --anysymbol /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/subset_7.txt > /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/temp_subalignment_subset_7.txt
+2021-10-27 09:58:06    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_25.txt
+2021-10-27 09:58:06    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 12 --anysymbol /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/subset_25.txt > /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/temp_subalignment_subset_25.txt
+2021-10-27 09:58:06    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_21.txt
+2021-10-27 09:58:06    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 12 --anysymbol /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/subset_21.txt > /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/temp_subalignment_subset_21.txt
+2021-10-27 09:58:06    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_3.txt
+2021-10-27 09:58:06    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/graph/backbone_5_mafft.txt
+2021-10-27 09:58:06    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_12.txt
+2021-10-27 09:58:06    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 12 --anysymbol /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/subset_12.txt > /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/temp_subalignment_subset_12.txt
+2021-10-27 09:58:06    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_6.txt
+2021-10-27 09:58:06    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_13.txt
+2021-10-27 09:58:06    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_22.txt
+2021-10-27 09:58:06    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 12 --anysymbol /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/subset_22.txt > /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/temp_subalignment_subset_22.txt
+2021-10-27 09:58:06    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_9.txt
+2021-10-27 09:58:06    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 12 --anysymbol /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/subset_9.txt > /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/temp_subalignment_subset_9.txt
+2021-10-27 09:58:06    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_5.txt
+2021-10-27 09:58:06    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 12 --anysymbol /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/subset_5.txt > /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/temp_subalignment_subset_5.txt
+2021-10-27 09:58:06    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_10.txt
+2021-10-27 09:58:06    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 12 --anysymbol /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/subset_10.txt > /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/temp_subalignment_subset_10.txt
+2021-10-27 09:58:06    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_23.txt
+2021-10-27 09:58:06    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_7.txt
+2021-10-27 09:58:06    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_14.txt
+2021-10-27 09:58:06    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 12 --anysymbol /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/subset_14.txt > /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/temp_subalignment_subset_14.txt
+2021-10-27 09:58:06    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_25.txt
+2021-10-27 09:58:06    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_21.txt
+2021-10-27 09:58:06    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_19.txt
+2021-10-27 09:58:06    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 12 --anysymbol /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/subset_19.txt > /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/temp_subalignment_subset_19.txt
+2021-10-27 09:58:06    Running a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_11.txt
+2021-10-27 09:58:06    Running an external tool, command: /mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 12 --anysymbol /mnt/c/Users/maste/Desktop/MAGUs/outputs1/decomposition/subset_11.txt > /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/temp_subalignment_subset_11.txt
+2021-10-27 09:58:06    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_22.txt
+2021-10-27 09:58:06    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_12.txt
+2021-10-27 09:58:06    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_9.txt
+2021-10-27 09:58:06    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_5.txt
+2021-10-27 09:58:06    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_10.txt
+2021-10-27 09:58:06    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_14.txt
+2021-10-27 09:58:06    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_19.txt
+2021-10-27 09:58:07    Completed a task, output file: /mnt/c/Users/maste/Desktop/MAGUs/outputs1/subalignments/subalignment_subset_11.txt
+2021-10-27 09:58:07    Task for /mnt/c/Users/maste/Desktop/MAGUs/aligned1.txt threw an exception:
+unsupported operand type(s) for +: 'int' and 'NoneType'
+2021-10-27 09:58:07    Traceback (most recent call last):
+  File "/mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tasks/task.py", line 59, in run
+    func(**self.taskArgs)
+  File "/mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/align/aligner.py", line 52, in runAlignmentTask
+    mergeSubalignments(context)
+  File "/mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/align/merge/merger.py", line 23, in mergeSubalignments
+    buildGraph(context)
+  File "/mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/align/merge/graph_build/graph_builder.py", line 38, in buildGraph
+    context.graph.initializeMatrix()
+  File "/mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/align/merge/alignment_graph.py", line 50, in initializeMatrix
+    self.matrixSize = sum(self.subalignmentLengths)
+TypeError: unsupported operand type(s) for +: 'int' and 'NoneType'
+
+2021-10-27 09:58:07    Task manager found a failed task: /mnt/c/Users/maste/Desktop/MAGUs/aligned1.txt
+2021-10-27 09:58:07    MAGUS aborted with an exception..
+2021-10-27 09:58:07    Traceback (most recent call last):
+  File "./MAGUS-master/magus.py", line 29, in main
+    mainAlignmentTask()
+  File "/mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/align/aligner.py", line 30, in mainAlignmentTask
+    task.awaitTask()
+  File "/mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tasks/task.py", line 47, in awaitTask
+    awaitTasks([self])
+  File "/mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tasks/task.py", line 94, in awaitTasks
+    controller.awaitTasks(tasks)
+  File "/mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tasks/controller.py", line 34, in awaitTasks
+    observeTaskManager()
+  File "/mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tasks/controller.py", line 53, in observeTaskManager
+    runTask(task)
+  File "/mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tasks/manager.py", line 219, in runTask
+    task.run()
+  File "/mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/tasks/task.py", line 59, in run
+    func(**self.taskArgs)
+  File "/mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/align/aligner.py", line 52, in runAlignmentTask
+    mergeSubalignments(context)
+  File "/mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/align/merge/merger.py", line 23, in mergeSubalignments
+    buildGraph(context)
+  File "/mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/align/merge/graph_build/graph_builder.py", line 38, in buildGraph
+    context.graph.initializeMatrix()
+  File "/mnt/c/Users/maste/Desktop/MAGUs/MAGUS-master/align/merge/alignment_graph.py", line 50, in initializeMatrix
+    self.matrixSize = sum(self.subalignmentLengths)
+TypeError: unsupported operand type(s) for +: 'int' and 'NoneType'
+
+2021-10-27 09:58:07    Waiting for 0 tasks to finish..
+2021-10-27 09:58:07    MAGUS finished in 89.10901665687561 seconds..
