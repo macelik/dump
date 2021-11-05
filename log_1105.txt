@@ -1,0 +1,1062 @@
+2021-11-04 17:18:11    MAGUS was run with: ./MAGUS-master/magus.py -d outputsv2 -i SGNR1505Shorter.fasta -o alignedv2.txt -t clustal --maxnumsubsets 100
+2021-11-04 17:18:11    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/alignedv2.txt
+2021-11-04 17:18:11    Aligning sequences /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/SGNR1505Shorter.fasta
+2021-11-04 17:20:02    Building Clustal Omega initial tree on /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/SGNR1505Shorter.fasta..
+2021-11-04 17:20:02    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/decomposition/initial_tree/initial_tree.tre
+2021-11-04 17:20:02    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/clustal/clustalo -i /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/SGNR1505Shorter.fasta --max-hmm-iterations=-1 --guidetree-out=/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/decomposition/initial_tree/temp_initial_tree.tre --threads=40
+2021-11-04 22:26:34    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/decomposition/initial_tree/initial_tree.tre
+2021-11-04 22:26:34    Built initial tree on /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/SGNR1505Shorter.fasta in 18392.940540790558 sec..
+2021-11-04 22:26:34    Using target subset size of 50, and maximum number of subsets 100..
+2021-11-04 22:29:12    Decomposing a tree with 589494 leaves into 295018 and 294476..
+2021-11-04 22:29:12    Decomposing a tree with 295018 leaves into 150951 and 144067..
+2021-11-04 22:29:13    Decomposing a tree with 294476 leaves into 180573 and 113903..
+2021-11-04 22:29:14    Decomposing a tree with 180573 leaves into 104251 and 76322..
+2021-11-04 22:29:14    Decomposing a tree with 150951 leaves into 70033 and 80918..
+2021-11-04 22:29:15    Decomposing a tree with 144067 leaves into 76607 and 67460..
+2021-11-04 22:29:15    Decomposing a tree with 113903 leaves into 53511 and 60392..
+2021-11-04 22:29:15    Decomposing a tree with 104251 leaves into 56105 and 48146..
+2021-11-04 22:29:16    Decomposing a tree with 80918 leaves into 36192 and 44726..
+2021-11-04 22:29:16    Decomposing a tree with 76607 leaves into 41386 and 35221..
+2021-11-04 22:29:16    Decomposing a tree with 76322 leaves into 41171 and 35151..
+2021-11-04 22:29:16    Decomposing a tree with 70033 leaves into 37596 and 32437..
+2021-11-04 22:29:17    Decomposing a tree with 67460 leaves into 32898 and 34562..
+2021-11-04 22:29:17    Decomposing a tree with 60392 leaves into 29520 and 30872..
+2021-11-04 22:29:17    Decomposing a tree with 56105 leaves into 26912 and 29193..
+2021-11-04 22:29:17    Decomposing a tree with 53511 leaves into 24863 and 28648..
+2021-11-04 22:29:17    Decomposing a tree with 48146 leaves into 19133 and 29013..
+2021-11-04 22:29:17    Decomposing a tree with 44726 leaves into 26858 and 17868..
+2021-11-04 22:29:18    Decomposing a tree with 41386 leaves into 18613 and 22773..
+2021-11-04 22:29:18    Decomposing a tree with 41171 leaves into 19222 and 21949..
+2021-11-04 22:29:18    Decomposing a tree with 37596 leaves into 18477 and 19119..
+2021-11-04 22:29:18    Decomposing a tree with 36192 leaves into 18704 and 17488..
+2021-11-04 22:29:18    Decomposing a tree with 35221 leaves into 18205 and 17016..
+2021-11-04 22:29:18    Decomposing a tree with 35151 leaves into 18973 and 16178..
+2021-11-04 22:29:18    Decomposing a tree with 34562 leaves into 17976 and 16586..
+2021-11-04 22:29:18    Decomposing a tree with 32898 leaves into 16622 and 16276..
+2021-11-04 22:29:19    Decomposing a tree with 32437 leaves into 15277 and 17160..
+2021-11-04 22:29:19    Decomposing a tree with 30872 leaves into 15717 and 15155..
+2021-11-04 22:29:19    Decomposing a tree with 29520 leaves into 14239 and 15281..
+2021-11-04 22:29:19    Decomposing a tree with 29193 leaves into 16027 and 13166..
+2021-11-04 22:29:19    Decomposing a tree with 29013 leaves into 14094 and 14919..
+2021-11-04 22:29:19    Decomposing a tree with 28648 leaves into 15280 and 13368..
+2021-11-04 22:29:19    Decomposing a tree with 26912 leaves into 14048 and 12864..
+2021-11-04 22:29:19    Decomposing a tree with 26858 leaves into 13564 and 13294..
+2021-11-04 22:29:19    Decomposing a tree with 24863 leaves into 10802 and 14061..
+2021-11-04 22:29:19    Decomposing a tree with 22773 leaves into 11270 and 11503..
+2021-11-04 22:29:20    Decomposing a tree with 21949 leaves into 12301 and 9648..
+2021-11-04 22:29:20    Decomposing a tree with 19222 leaves into 10326 and 8896..
+2021-11-04 22:29:20    Decomposing a tree with 19133 leaves into 9445 and 9688..
+2021-11-04 22:29:20    Decomposing a tree with 19119 leaves into 9698 and 9421..
+2021-11-04 22:29:20    Decomposing a tree with 18973 leaves into 10344 and 8629..
+2021-11-04 22:29:20    Decomposing a tree with 18704 leaves into 8431 and 10273..
+2021-11-04 22:29:20    Decomposing a tree with 18613 leaves into 9917 and 8696..
+2021-11-04 22:29:20    Decomposing a tree with 18477 leaves into 9664 and 8813..
+2021-11-04 22:29:20    Decomposing a tree with 18205 leaves into 8479 and 9726..
+2021-11-04 22:29:20    Decomposing a tree with 17976 leaves into 9393 and 8583..
+2021-11-04 22:29:20    Decomposing a tree with 17868 leaves into 7482 and 10386..
+2021-11-04 22:29:20    Decomposing a tree with 17488 leaves into 8474 and 9014..
+2021-11-04 22:29:20    Decomposing a tree with 17160 leaves into 7818 and 9342..
+2021-11-04 22:29:20    Decomposing a tree with 17016 leaves into 10034 and 6982..
+2021-11-04 22:29:20    Decomposing a tree with 16622 leaves into 6352 and 10270..
+2021-11-04 22:29:20    Decomposing a tree with 16586 leaves into 7666 and 8920..
+2021-11-04 22:29:21    Decomposing a tree with 16276 leaves into 7032 and 9244..
+2021-11-04 22:29:21    Decomposing a tree with 16178 leaves into 8360 and 7818..
+2021-11-04 22:29:21    Decomposing a tree with 16027 leaves into 9267 and 6760..
+2021-11-04 22:29:21    Decomposing a tree with 15717 leaves into 8245 and 7472..
+2021-11-04 22:29:21    Decomposing a tree with 15281 leaves into 8993 and 6288..
+2021-11-04 22:29:21    Decomposing a tree with 15280 leaves into 8786 and 6494..
+2021-11-04 22:29:21    Decomposing a tree with 15277 leaves into 8548 and 6729..
+2021-11-04 22:29:21    Decomposing a tree with 15155 leaves into 7680 and 7475..
+2021-11-04 22:29:21    Decomposing a tree with 14919 leaves into 7485 and 7434..
+2021-11-04 22:29:21    Decomposing a tree with 14239 leaves into 7272 and 6967..
+2021-11-04 22:29:21    Decomposing a tree with 14094 leaves into 8214 and 5880..
+2021-11-04 22:29:21    Decomposing a tree with 14061 leaves into 6504 and 7557..
+2021-11-04 22:29:21    Decomposing a tree with 14048 leaves into 8905 and 5143..
+2021-11-04 22:29:21    Decomposing a tree with 13564 leaves into 6658 and 6906..
+2021-11-04 22:29:21    Decomposing a tree with 13368 leaves into 8394 and 4974..
+2021-11-04 22:29:21    Decomposing a tree with 13294 leaves into 5842 and 7452..
+2021-11-04 22:29:21    Decomposing a tree with 13166 leaves into 6364 and 6802..
+2021-11-04 22:29:21    Decomposing a tree with 12864 leaves into 7092 and 5772..
+2021-11-04 22:29:21    Decomposing a tree with 12301 leaves into 4698 and 7603..
+2021-11-04 22:29:21    Decomposing a tree with 11503 leaves into 5807 and 5696..
+2021-11-04 22:29:22    Decomposing a tree with 11270 leaves into 6249 and 5021..
+2021-11-04 22:29:22    Decomposing a tree with 10802 leaves into 5736 and 5066..
+2021-11-04 22:29:22    Decomposing a tree with 10386 leaves into 4545 and 5841..
+2021-11-04 22:29:22    Decomposing a tree with 10344 leaves into 4714 and 5630..
+2021-11-04 22:29:22    Decomposing a tree with 10326 leaves into 4676 and 5650..
+2021-11-04 22:29:22    Decomposing a tree with 10273 leaves into 5134 and 5139..
+2021-11-04 22:29:22    Decomposing a tree with 10270 leaves into 3936 and 6334..
+2021-11-04 22:29:22    Decomposing a tree with 10034 leaves into 5209 and 4825..
+2021-11-04 22:29:22    Decomposing a tree with 9917 leaves into 6457 and 3460..
+2021-11-04 22:29:22    Decomposing a tree with 9726 leaves into 4531 and 5195..
+2021-11-04 22:29:22    Decomposing a tree with 9698 leaves into 4850 and 4848..
+2021-11-04 22:29:22    Decomposing a tree with 9688 leaves into 4673 and 5015..
+2021-11-04 22:29:22    Decomposing a tree with 9664 leaves into 4464 and 5200..
+2021-11-04 22:29:22    Decomposing a tree with 9648 leaves into 4647 and 5001..
+2021-11-04 22:29:22    Decomposing a tree with 9445 leaves into 5044 and 4401..
+2021-11-04 22:29:22    Decomposing a tree with 9421 leaves into 4626 and 4795..
+2021-11-04 22:29:22    Decomposing a tree with 9393 leaves into 5711 and 3682..
+2021-11-04 22:29:22    Decomposing a tree with 9342 leaves into 5003 and 4339..
+2021-11-04 22:29:22    Decomposing a tree with 9267 leaves into 4376 and 4891..
+2021-11-04 22:29:22    Decomposing a tree with 9244 leaves into 3710 and 5534..
+2021-11-04 22:29:22    Decomposing a tree with 9014 leaves into 5036 and 3978..
+2021-11-04 22:29:22    Decomposing a tree with 8993 leaves into 4440 and 4553..
+2021-11-04 22:29:22    Decomposing a tree with 8920 leaves into 3930 and 4990..
+2021-11-04 22:29:22    Decomposing a tree with 8905 leaves into 4096 and 4809..
+2021-11-04 22:29:22    Decomposing a tree with 8896 leaves into 3954 and 4942..
+2021-11-04 22:29:22    Decomposing a tree with 8813 leaves into 4619 and 4194..
+2021-11-04 22:29:22    Decomposing a tree with 8786 leaves into 4335 and 4451..
+2021-11-04 22:30:18    Decomposed /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/SGNR1505Shorter.fasta into 100 subsets in 18726.699892520905 sec..
+2021-11-04 22:30:18    Building 100 subalignments..
+2021-11-04 22:30:19    Subset has 8629/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:19    Subset has 8431/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:20    Subset has 8696/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:21    Subset has 8479/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:22    Subset has 8583/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:22    Subset has 7482/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:23    Subset has 8474/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:24    Subset has 7818/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:24    Subset has 6982/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:25    Subset has 6352/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:25    Subset has 7666/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:26    Subset has 7032/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:27    Subset has 8360/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:27    Subset has 7818/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:28    Subset has 6760/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:29    Subset has 8245/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:29    Subset has 7472/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:30    Subset has 6288/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:30    Subset has 6494/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:31    Subset has 8548/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:32    Subset has 6729/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:33    Subset has 7680/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:34    Subset has 7475/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:34    Subset has 7485/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:35    Subset has 7434/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:36    Subset has 7272/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:36    Subset has 6967/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:37    Subset has 8214/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:38    Subset has 5880/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:38    Subset has 6504/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:39    Subset has 7557/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:40    Subset has 5143/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:40    Subset has 6658/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:41    Subset has 6906/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:42    Subset has 8394/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:42    Subset has 4974/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:43    Subset has 5842/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:44    Subset has 7452/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:44    Subset has 6364/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:45    Subset has 6802/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:46    Subset has 7092/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:46    Subset has 5772/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:47    Subset has 4698/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:48    Subset has 7603/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:48    Subset has 5807/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:49    Subset has 5696/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:49    Subset has 6249/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:50    Subset has 5021/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:50    Subset has 5736/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:51    Subset has 5066/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:51    Subset has 4545/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:52    Subset has 5841/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:52    Subset has 4714/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:53    Subset has 5630/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:53    Subset has 4676/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:54    Subset has 5650/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:54    Subset has 5134/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:55    Subset has 5139/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:55    Subset has 3936/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:56    Subset has 6334/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:56    Subset has 5209/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:57    Subset has 4825/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:58    Subset has 6457/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:58    Subset has 3460/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:58    Subset has 4531/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:59    Subset has 5195/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:30:59    Subset has 4850/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:31:00    Subset has 4848/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:31:00    Subset has 4673/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:31:01    Subset has 5015/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:31:01    Subset has 4464/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:31:02    Subset has 5200/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:31:02    Subset has 4647/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:31:03    Subset has 5001/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:31:03    Subset has 5044/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:31:04    Subset has 4401/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:31:04    Subset has 4626/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:31:05    Subset has 4795/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:31:05    Subset has 5711/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:31:06    Subset has 3682/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:31:06    Subset has 5003/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:31:07    Subset has 4339/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:31:07    Subset has 4376/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:31:07    Subset has 4891/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:31:08    Subset has 3710/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:31:08    Subset has 5534/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:31:09    Subset has 5036/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:31:09    Subset has 3978/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:31:10    Subset has 4440/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:31:10    Subset has 4553/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:31:11    Subset has 3930/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:31:11    Subset has 4990/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:31:12    Subset has 4096/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:31:12    Subset has 4809/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:31:12    Subset has 3954/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:31:13    Subset has 4942/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:31:13    Subset has 4619/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:31:14    Subset has 4194/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:31:14    Subset has 4335/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:31:14    Subset has 4451/200 sequences, recursively subaligning with MAGUS..
+2021-11-04 22:31:15    Prepared 100 subset alignment tasks..
+2021-11-04 22:31:15    Merging 100 subaligments..
+2021-11-04 22:32:07    Using 10 MAFFT backbones..
+2021-11-04 22:32:10    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/backbone_9_mafft.txt
+2021-11-04 22:32:10    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/backbone_9_unalign.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/temp_backbone_9_mafft.txt
+2021-11-04 22:32:15    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93.txt
+2021-11-04 22:32:15    Aligning sequences /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/decomposition/subset_93.txt
+2021-11-04 22:32:15    Building PASTA-style FastTree initial tree on /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/decomposition/subset_93.txt with skeleton size 300..
+2021-11-04 22:32:15    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/initial_tree/initial_align.txt
+2021-11-04 22:32:15    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/initial_tree/skeleton_sequences.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/initial_tree/temp_initial_align.txt
+2021-11-04 22:32:20    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/backbone_7_mafft.txt
+2021-11-04 22:32:20    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/backbone_7_unalign.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/temp_backbone_7_mafft.txt
+2021-11-04 22:32:25    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/backbone_3_mafft.txt
+2021-11-04 22:32:25    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/backbone_3_unalign.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/temp_backbone_3_mafft.txt
+2021-11-04 22:32:30    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/backbone_4_mafft.txt
+2021-11-04 22:32:30    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/backbone_4_unalign.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/temp_backbone_4_mafft.txt
+2021-11-04 22:32:36    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/backbone_6_mafft.txt
+2021-11-04 22:32:36    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/backbone_6_unalign.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/temp_backbone_6_mafft.txt
+2021-11-04 22:32:41    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/backbone_5_mafft.txt
+2021-11-04 22:32:41    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/backbone_5_unalign.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/temp_backbone_5_mafft.txt
+2021-11-04 22:32:46    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/backbone_2_mafft.txt
+2021-11-04 22:32:46    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/backbone_2_unalign.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/temp_backbone_2_mafft.txt
+2021-11-04 22:32:51    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/backbone_8_mafft.txt
+2021-11-04 22:32:51    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/backbone_8_unalign.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/temp_backbone_8_mafft.txt
+2021-11-04 22:32:56    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/backbone_1_mafft.txt
+2021-11-04 22:32:56    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/backbone_1_unalign.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/temp_backbone_1_mafft.txt
+2021-11-04 22:33:02    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/backbone_10_mafft.txt
+2021-11-04 22:33:02    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/backbone_10_unalign.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/temp_backbone_10_mafft.txt
+2021-11-04 22:36:26    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/backbone_9_mafft.txt
+2021-11-04 22:36:47    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/backbone_7_mafft.txt
+2021-11-04 22:36:53    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/backbone_3_mafft.txt
+2021-11-04 22:36:59    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/backbone_6_mafft.txt
+2021-11-04 22:37:09    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/backbone_4_mafft.txt
+2021-11-04 22:37:13    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/backbone_8_mafft.txt
+2021-11-04 22:37:16    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/backbone_1_mafft.txt
+2021-11-04 22:37:16    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/backbone_2_mafft.txt
+2021-11-04 22:37:19    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/backbone_10_mafft.txt
+2021-11-04 22:37:19    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/graph/backbone_5_mafft.txt
+2021-11-04 22:37:29    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/initial_tree/initial_align.txt
+2021-11-04 22:37:30    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/initial_tree/skeleton_hmm/hmm_model.txt
+2021-11-04 22:37:30    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/hmmer/hmmbuild --ere 0.59 --cpu 1 --symfrac 0.0 --informat afa /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/initial_tree/skeleton_hmm/temp_hmm_model.txt /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/initial_tree/initial_align.txt
+2021-11-04 22:37:31    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/initial_tree/skeleton_hmm/hmm_model.txt
+2021-11-04 22:37:32    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/initial_tree/chunks_queries/queries_chunk_4_aligned.txt
+2021-11-04 22:37:32    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/hmmer/hmmalign -o /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/initial_tree/chunks_queries/temp_queries_chunk_4_aligned.txt /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/initial_tree/skeleton_hmm/hmm_model.txt /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/initial_tree/chunks_queries/queries_chunk_4.txt
+2021-11-04 22:37:37    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/initial_tree/chunks_queries/queries_chunk_3_aligned.txt
+2021-11-04 22:37:37    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/hmmer/hmmalign -o /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/initial_tree/chunks_queries/temp_queries_chunk_3_aligned.txt /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/initial_tree/skeleton_hmm/hmm_model.txt /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/initial_tree/chunks_queries/queries_chunk_3.txt
+2021-11-04 22:37:42    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/initial_tree/chunks_queries/queries_chunk_1_aligned.txt
+2021-11-04 22:37:42    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/hmmer/hmmalign -o /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/initial_tree/chunks_queries/temp_queries_chunk_1_aligned.txt /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/initial_tree/skeleton_hmm/hmm_model.txt /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/initial_tree/chunks_queries/queries_chunk_1.txt
+2021-11-04 22:37:47    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/initial_tree/chunks_queries/queries_chunk_2_aligned.txt
+2021-11-04 22:37:47    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/hmmer/hmmalign -o /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/initial_tree/chunks_queries/temp_queries_chunk_2_aligned.txt /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/initial_tree/skeleton_hmm/hmm_model.txt /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/initial_tree/chunks_queries/queries_chunk_2.txt
+2021-11-04 22:37:49    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/initial_tree/chunks_queries/queries_chunk_4_aligned.txt
+2021-11-04 22:38:00    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/initial_tree/chunks_queries/queries_chunk_3_aligned.txt
+2021-11-04 22:38:05    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/initial_tree/chunks_queries/queries_chunk_1_aligned.txt
+2021-11-04 22:38:09    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/initial_tree/chunks_queries/queries_chunk_2_aligned.txt
+2021-11-04 22:38:11    Data type wasn't specified. Inferred data type PROTEIN from /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/initial_tree/initial_align.txt
+2021-11-04 22:38:11    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/initial_tree/initial_tree.tre
+2021-11-04 22:38:11    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/fasttree/FastTreeMP -lg -fastest -nosupport /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/initial_tree/initial_align.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/initial_tree/temp_initial_tree.tre
+2021-11-04 22:46:15    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/initial_tree/initial_tree.tre
+2021-11-04 22:46:15    Built initial tree on /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/decomposition/subset_93.txt in 839.8595461845398 sec..
+2021-11-04 22:46:15    Using target subset size of 50, and maximum number of subsets 100..
+2021-11-04 22:46:16    Decomposing a tree with 4096 leaves into 1786 and 2310..
+2021-11-04 22:46:16    Decomposing a tree with 2310 leaves into 1184 and 1126..
+2021-11-04 22:46:16    Decomposing a tree with 1786 leaves into 1012 and 774..
+2021-11-04 22:46:16    Decomposing a tree with 1184 leaves into 595 and 589..
+2021-11-04 22:46:16    Decomposing a tree with 1126 leaves into 620 and 506..
+2021-11-04 22:46:16    Decomposing a tree with 1012 leaves into 534 and 478..
+2021-11-04 22:46:16    Decomposing a tree with 774 leaves into 384 and 390..
+2021-11-04 22:46:16    Decomposing a tree with 620 leaves into 302 and 318..
+2021-11-04 22:46:16    Decomposing a tree with 595 leaves into 298 and 297..
+2021-11-04 22:46:16    Decomposing a tree with 589 leaves into 308 and 281..
+2021-11-04 22:46:16    Decomposing a tree with 534 leaves into 353 and 181..
+2021-11-04 22:46:16    Decomposing a tree with 506 leaves into 305 and 201..
+2021-11-04 22:46:16    Decomposing a tree with 478 leaves into 241 and 237..
+2021-11-04 22:46:16    Decomposing a tree with 390 leaves into 230 and 160..
+2021-11-04 22:46:16    Decomposing a tree with 384 leaves into 171 and 213..
+2021-11-04 22:46:16    Decomposing a tree with 353 leaves into 177 and 176..
+2021-11-04 22:46:16    Decomposing a tree with 318 leaves into 162 and 156..
+2021-11-04 22:46:16    Decomposing a tree with 308 leaves into 158 and 150..
+2021-11-04 22:46:16    Decomposing a tree with 305 leaves into 153 and 152..
+2021-11-04 22:46:16    Decomposing a tree with 302 leaves into 151 and 151..
+2021-11-04 22:46:16    Decomposing a tree with 298 leaves into 149 and 149..
+2021-11-04 22:46:16    Decomposing a tree with 297 leaves into 150 and 147..
+2021-11-04 22:46:16    Decomposing a tree with 281 leaves into 136 and 145..
+2021-11-04 22:46:16    Decomposing a tree with 241 leaves into 122 and 119..
+2021-11-04 22:46:16    Decomposing a tree with 237 leaves into 122 and 115..
+2021-11-04 22:46:16    Decomposing a tree with 230 leaves into 116 and 114..
+2021-11-04 22:46:16    Decomposing a tree with 213 leaves into 81 and 132..
+2021-11-04 22:46:16    Decomposing a tree with 201 leaves into 100 and 101..
+2021-11-04 22:46:16    Decomposing a tree with 181 leaves into 94 and 87..
+2021-11-04 22:46:16    Decomposing a tree with 177 leaves into 89 and 88..
+2021-11-04 22:46:16    Decomposing a tree with 176 leaves into 88 and 88..
+2021-11-04 22:46:16    Decomposing a tree with 171 leaves into 87 and 84..
+2021-11-04 22:46:16    Decomposing a tree with 162 leaves into 89 and 73..
+2021-11-04 22:46:16    Decomposing a tree with 160 leaves into 100 and 60..
+2021-11-04 22:46:16    Decomposing a tree with 158 leaves into 76 and 82..
+2021-11-04 22:46:16    Decomposing a tree with 156 leaves into 72 and 84..
+2021-11-04 22:46:16    Decomposing a tree with 153 leaves into 76 and 77..
+2021-11-04 22:46:16    Decomposing a tree with 152 leaves into 74 and 78..
+2021-11-04 22:46:16    Decomposing a tree with 151 leaves into 75 and 76..
+2021-11-04 22:46:16    Decomposing a tree with 151 leaves into 76 and 75..
+2021-11-04 22:46:16    Decomposing a tree with 150 leaves into 75 and 75..
+2021-11-04 22:46:16    Decomposing a tree with 150 leaves into 75 and 75..
+2021-11-04 22:46:16    Decomposing a tree with 149 leaves into 87 and 62..
+2021-11-04 22:46:16    Decomposing a tree with 149 leaves into 80 and 69..
+2021-11-04 22:46:16    Decomposing a tree with 147 leaves into 71 and 76..
+2021-11-04 22:46:16    Decomposing a tree with 145 leaves into 74 and 71..
+2021-11-04 22:46:16    Decomposing a tree with 136 leaves into 74 and 62..
+2021-11-04 22:46:16    Decomposing a tree with 132 leaves into 62 and 70..
+2021-11-04 22:46:16    Decomposing a tree with 122 leaves into 54 and 68..
+2021-11-04 22:46:16    Decomposing a tree with 122 leaves into 61 and 61..
+2021-11-04 22:46:16    Decomposing a tree with 119 leaves into 59 and 60..
+2021-11-04 22:46:16    Decomposing a tree with 116 leaves into 56 and 60..
+2021-11-04 22:46:16    Decomposing a tree with 115 leaves into 57 and 58..
+2021-11-04 22:46:16    Decomposing a tree with 114 leaves into 62 and 52..
+2021-11-04 22:46:16    Decomposing a tree with 101 leaves into 50 and 51..
+2021-11-04 22:46:16    Decomposing a tree with 100 leaves into 53 and 47..
+2021-11-04 22:46:16    Decomposing a tree with 100 leaves into 57 and 43..
+2021-11-04 22:46:16    Decomposing a tree with 94 leaves into 54 and 40..
+2021-11-04 22:46:16    Decomposing a tree with 89 leaves into 42 and 47..
+2021-11-04 22:46:16    Decomposing a tree with 89 leaves into 46 and 43..
+2021-11-04 22:46:16    Decomposing a tree with 88 leaves into 46 and 42..
+2021-11-04 22:46:16    Decomposing a tree with 88 leaves into 42 and 46..
+2021-11-04 22:46:16    Decomposing a tree with 88 leaves into 42 and 46..
+2021-11-04 22:46:16    Decomposing a tree with 87 leaves into 44 and 43..
+2021-11-04 22:46:16    Decomposing a tree with 87 leaves into 44 and 43..
+2021-11-04 22:46:16    Decomposing a tree with 87 leaves into 52 and 35..
+2021-11-04 22:46:16    Decomposing a tree with 84 leaves into 36 and 48..
+2021-11-04 22:46:16    Decomposing a tree with 84 leaves into 46 and 38..
+2021-11-04 22:46:16    Decomposing a tree with 82 leaves into 38 and 44..
+2021-11-04 22:46:16    Decomposing a tree with 81 leaves into 38 and 43..
+2021-11-04 22:46:16    Decomposing a tree with 80 leaves into 44 and 36..
+2021-11-04 22:46:16    Decomposing a tree with 78 leaves into 30 and 48..
+2021-11-04 22:46:16    Decomposing a tree with 77 leaves into 39 and 38..
+2021-11-04 22:46:16    Decomposing a tree with 76 leaves into 31 and 45..
+2021-11-04 22:46:16    Decomposing a tree with 76 leaves into 39 and 37..
+2021-11-04 22:46:16    Decomposing a tree with 76 leaves into 43 and 33..
+2021-11-04 22:46:16    Decomposing a tree with 76 leaves into 29 and 47..
+2021-11-04 22:46:16    Decomposing a tree with 76 leaves into 38 and 38..
+2021-11-04 22:46:17    Decomposing a tree with 75 leaves into 39 and 36..
+2021-11-04 22:46:17    Decomposing a tree with 75 leaves into 38 and 37..
+2021-11-04 22:46:17    Decomposing a tree with 75 leaves into 36 and 39..
+2021-11-04 22:46:17    Decomposing a tree with 75 leaves into 37 and 38..
+2021-11-04 22:46:17    Decomposing a tree with 75 leaves into 38 and 37..
+2021-11-04 22:46:17    Decomposing a tree with 75 leaves into 40 and 35..
+2021-11-04 22:46:17    Decomposing a tree with 74 leaves into 37 and 37..
+2021-11-04 22:46:17    Decomposing a tree with 74 leaves into 40 and 34..
+2021-11-04 22:46:17    Decomposing a tree with 74 leaves into 31 and 43..
+2021-11-04 22:46:17    Decomposing a tree with 73 leaves into 40 and 33..
+2021-11-04 22:46:17    Decomposing a tree with 72 leaves into 39 and 33..
+2021-11-04 22:46:17    Decomposing a tree with 71 leaves into 36 and 35..
+2021-11-04 22:46:17    Decomposing a tree with 71 leaves into 34 and 37..
+2021-11-04 22:46:17    Decomposing a tree with 70 leaves into 34 and 36..
+2021-11-04 22:46:17    Decomposing a tree with 69 leaves into 38 and 31..
+2021-11-04 22:46:17    Decomposing a tree with 68 leaves into 35 and 33..
+2021-11-04 22:46:17    Decomposing a tree with 62 leaves into 30 and 32..
+2021-11-04 22:46:17    Decomposing a tree with 62 leaves into 38 and 24..
+2021-11-04 22:46:17    Decomposing a tree with 62 leaves into 34 and 28..
+2021-11-04 22:46:17    Decomposing a tree with 62 leaves into 34 and 28..
+2021-11-04 22:46:17    Decomposing a tree with 61 leaves into 30 and 31..
+2021-11-04 22:46:18    Decomposed /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/decomposition/subset_93.txt into 100 subsets in 842.8228750228882 sec..
+2021-11-04 22:46:18    Building 100 subalignments..
+2021-11-04 22:46:18    Subset has 60/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:18    Subset has 54/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:18    Subset has 61/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:18    Subset has 59/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:18    Subset has 60/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:18    Subset has 56/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:18    Subset has 60/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:18    Subset has 57/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:18    Subset has 58/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:18    Subset has 52/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:18    Subset has 50/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:18    Subset has 51/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:18    Subset has 53/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:18    Subset has 47/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:18    Subset has 57/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:18    Subset has 43/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:18    Subset has 54/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:18    Subset has 40/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:18    Subset has 42/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:19    Subset has 47/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:19    Subset has 46/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:19    Subset has 43/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:19    Subset has 46/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:19    Subset has 42/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:19    Subset has 42/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:19    Subset has 46/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:19    Subset has 42/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:19    Subset has 46/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:19    Subset has 44/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:19    Subset has 43/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:19    Subset has 44/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:19    Subset has 43/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:19    Subset has 52/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:19    Subset has 35/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:19    Subset has 36/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:19    Subset has 48/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:19    Subset has 46/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:19    Subset has 38/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:19    Subset has 38/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:19    Subset has 44/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:19    Subset has 38/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:19    Subset has 43/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:19    Subset has 44/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:19    Subset has 36/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:19    Subset has 30/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:19    Subset has 48/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:19    Subset has 39/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:19    Subset has 38/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:19    Subset has 31/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:19    Subset has 45/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:19    Subset has 39/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:19    Subset has 37/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:19    Subset has 43/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:19    Subset has 33/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:19    Subset has 29/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:19    Subset has 47/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:19    Subset has 38/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:20    Subset has 38/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:20    Subset has 39/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:20    Subset has 36/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:20    Subset has 38/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:20    Subset has 37/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:20    Subset has 36/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:20    Subset has 39/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:20    Subset has 37/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:20    Subset has 38/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:20    Subset has 38/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:20    Subset has 37/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:20    Subset has 40/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:20    Subset has 35/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:20    Subset has 37/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:20    Subset has 37/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:20    Subset has 40/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:20    Subset has 34/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:20    Subset has 31/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:20    Subset has 43/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:20    Subset has 40/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:20    Subset has 33/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:20    Subset has 39/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:20    Subset has 33/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:20    Subset has 36/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:20    Subset has 35/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:20    Subset has 34/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:20    Subset has 37/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:20    Subset has 34/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:20    Subset has 36/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:20    Subset has 38/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:20    Subset has 31/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:20    Subset has 35/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:20    Subset has 33/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:20    Subset has 30/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:20    Subset has 32/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:20    Subset has 38/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:20    Subset has 24/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:21    Subset has 34/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:21    Subset has 28/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:21    Subset has 34/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:21    Subset has 28/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:21    Subset has 30/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:21    Subset has 31/200 sequences, aligning with MAFFT..
+2021-11-04 22:46:21    Prepared 100 subset alignment tasks..
+2021-11-04 22:46:21    Merging 100 subaligments..
+2021-11-04 22:46:21    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_18.txt
+2021-11-04 22:46:21    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_18.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_18.txt
+2021-11-04 22:46:22    Using 10 MAFFT backbones..
+2021-11-04 22:46:22    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_1_mafft.txt
+2021-11-04 22:46:22    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_1_unalign.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/temp_backbone_1_mafft.txt
+2021-11-04 22:46:28    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_12.txt
+2021-11-04 22:46:28    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_12.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_12.txt
+2021-11-04 22:46:28    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_18.txt
+2021-11-04 22:46:28    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_36.txt
+2021-11-04 22:46:28    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_36.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_36.txt
+2021-11-04 22:46:28    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_68.txt
+2021-11-04 22:46:28    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_68.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_68.txt
+2021-11-04 22:46:33    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_4_mafft.txt
+2021-11-04 22:46:33    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_4_unalign.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/temp_backbone_4_mafft.txt
+2021-11-04 22:46:38    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_8.txt
+2021-11-04 22:46:38    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_8.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_8.txt
+2021-11-04 22:46:38    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_68.txt
+2021-11-04 22:46:38    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_56.txt
+2021-11-04 22:46:38    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_56.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_56.txt
+2021-11-04 22:46:38    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_3_mafft.txt
+2021-11-04 22:46:38    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_3_unalign.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/temp_backbone_3_mafft.txt
+2021-11-04 22:46:39    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_36.txt
+2021-11-04 22:46:39    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_96.txt
+2021-11-04 22:46:39    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_96.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_96.txt
+2021-11-04 22:46:42    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_12.txt
+2021-11-04 22:46:42    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_62.txt
+2021-11-04 22:46:42    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_62.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_62.txt
+2021-11-04 22:46:42    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_2_mafft.txt
+2021-11-04 22:46:42    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_2_unalign.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/temp_backbone_2_mafft.txt
+2021-11-04 22:46:48    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_6.txt
+2021-11-04 22:46:48    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_6.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_6.txt
+2021-11-04 22:46:52    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_9_mafft.txt
+2021-11-04 22:46:52    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_9_unalign.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/temp_backbone_9_mafft.txt
+2021-11-04 22:46:53    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_96.txt
+2021-11-04 22:46:53    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_10_mafft.txt
+2021-11-04 22:46:53    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_10_unalign.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/temp_backbone_10_mafft.txt
+2021-11-04 22:46:53    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_8_mafft.txt
+2021-11-04 22:46:53    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_8_unalign.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/temp_backbone_8_mafft.txt
+2021-11-04 22:46:56    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_56.txt
+2021-11-04 22:46:56    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_27.txt
+2021-11-04 22:46:56    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_27.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_27.txt
+2021-11-04 22:47:01    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_11.txt
+2021-11-04 22:47:01    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_11.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_11.txt
+2021-11-04 22:47:02    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_62.txt
+2021-11-04 22:47:02    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_89.txt
+2021-11-04 22:47:02    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_89.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_89.txt
+2021-11-04 22:47:03    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_8.txt
+2021-11-04 22:47:03    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_52.txt
+2021-11-04 22:47:03    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_52.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_52.txt
+2021-11-04 22:47:04    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_5_mafft.txt
+2021-11-04 22:47:04    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_5_unalign.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/temp_backbone_5_mafft.txt
+2021-11-04 22:47:09    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_6_mafft.txt
+2021-11-04 22:47:09    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_6_unalign.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/temp_backbone_6_mafft.txt
+2021-11-04 22:47:14    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_7_mafft.txt
+2021-11-04 22:47:14    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_7_unalign.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/temp_backbone_7_mafft.txt
+2021-11-04 22:47:19    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_33.txt
+2021-11-04 22:47:19    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_33.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_33.txt
+2021-11-04 22:47:21    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_6.txt
+2021-11-04 22:47:21    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_87.txt
+2021-11-04 22:47:21    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_87.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_87.txt
+2021-11-04 22:47:21    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_72.txt
+2021-11-04 22:47:21    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_72.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_72.txt
+2021-11-04 22:47:27    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_90.txt
+2021-11-04 22:47:27    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_90.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_90.txt
+2021-11-04 22:47:28    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_89.txt
+2021-11-04 22:47:28    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_50.txt
+2021-11-04 22:47:28    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_50.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_50.txt
+2021-11-04 22:47:28    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_14.txt
+2021-11-04 22:47:28    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_14.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_14.txt
+2021-11-04 22:47:34    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_35.txt
+2021-11-04 22:47:34    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_35.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_35.txt
+2021-11-04 22:47:35    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_27.txt
+2021-11-04 22:47:36    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_97.txt
+2021-11-04 22:47:36    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_97.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_97.txt
+2021-11-04 22:47:36    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_58.txt
+2021-11-04 22:47:36    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_58.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_58.txt
+2021-11-04 22:47:42    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_43.txt
+2021-11-04 22:47:42    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_43.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_43.txt
+2021-11-04 22:47:46    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_52.txt
+2021-11-04 22:47:46    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_81.txt
+2021-11-04 22:47:46    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_81.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_81.txt
+2021-11-04 22:47:47    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_95.txt
+2021-11-04 22:47:47    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_95.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_95.txt
+2021-11-04 22:47:49    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_11.txt
+2021-11-04 22:47:49    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_31.txt
+2021-11-04 22:47:49    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_31.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_31.txt
+2021-11-04 22:47:50    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_99.txt
+2021-11-04 22:47:50    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_99.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_99.txt
+2021-11-04 22:47:55    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_78.txt
+2021-11-04 22:47:55    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_78.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_78.txt
+2021-11-04 22:48:00    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_1.txt
+2021-11-04 22:48:00    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_1.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_1.txt
+2021-11-04 22:48:04    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_72.txt
+2021-11-04 22:48:04    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_25.txt
+2021-11-04 22:48:04    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_25.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_25.txt
+2021-11-04 22:48:05    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_65.txt
+2021-11-04 22:48:05    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_65.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_65.txt
+2021-11-04 22:48:06    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_90.txt
+2021-11-04 22:48:06    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_29.txt
+2021-11-04 22:48:06    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_29.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_29.txt
+2021-11-04 22:48:07    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_87.txt
+2021-11-04 22:48:07    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_40.txt
+2021-11-04 22:48:07    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_40.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_40.txt
+2021-11-04 22:48:08    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_64.txt
+2021-11-04 22:48:08    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_64.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_64.txt
+2021-11-04 22:48:13    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_76.txt
+2021-11-04 22:48:13    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_76.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_76.txt
+2021-11-04 22:48:22    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_97.txt
+2021-11-04 22:48:22    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_50.txt
+2021-11-04 22:48:23    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_80.txt
+2021-11-04 22:48:23    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_80.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_80.txt
+2021-11-04 22:48:28    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_74.txt
+2021-11-04 22:48:28    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_74.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_74.txt
+2021-11-04 22:48:28    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_14.txt
+2021-11-04 22:48:28    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_95.txt
+2021-11-04 22:48:28    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_35.txt
+2021-11-04 22:48:28    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_58.txt
+2021-11-04 22:48:28    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_37.txt
+2021-11-04 22:48:28    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_37.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_37.txt
+2021-11-04 22:48:29    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_66.txt
+2021-11-04 22:48:29    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_66.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_66.txt
+2021-11-04 22:48:31    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_99.txt
+2021-11-04 22:48:31    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_81.txt
+2021-11-04 22:48:31    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_19.txt
+2021-11-04 22:48:31    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_19.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_19.txt
+2021-11-04 22:48:31    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_33.txt
+2021-11-04 22:48:32    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_85.txt
+2021-11-04 22:48:32    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_85.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_85.txt
+2021-11-04 22:48:33    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_48.txt
+2021-11-04 22:48:33    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_48.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_48.txt
+2021-11-04 22:48:37    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_78.txt
+2021-11-04 22:48:37    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_4.txt
+2021-11-04 22:48:37    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_4.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_4.txt
+2021-11-04 22:48:38    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_30.txt
+2021-11-04 22:48:38    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_30.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_30.txt
+2021-11-04 22:48:38    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_31.txt
+2021-11-04 22:48:39    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_49.txt
+2021-11-04 22:48:39    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_49.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_49.txt
+2021-11-04 22:48:40    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_2.txt
+2021-11-04 22:48:40    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_2.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_2.txt
+2021-11-04 22:48:44    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_43.txt
+2021-11-04 22:48:44    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_44.txt
+2021-11-04 22:48:44    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_44.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_44.txt
+2021-11-04 22:48:45    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_88.txt
+2021-11-04 22:48:45    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_88.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_88.txt
+2021-11-04 22:48:50    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_61.txt
+2021-11-04 22:48:50    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_61.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_61.txt
+2021-11-04 22:48:53    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_25.txt
+2021-11-04 22:48:54    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_13.txt
+2021-11-04 22:48:54    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_13.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_13.txt
+2021-11-04 22:48:54    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_16.txt
+2021-11-04 22:48:54    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_16.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_16.txt
+2021-11-04 22:48:55    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_65.txt
+2021-11-04 22:48:55    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_39.txt
+2021-11-04 22:48:55    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_39.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_39.txt
+2021-11-04 22:48:57    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_93.txt
+2021-11-04 22:48:57    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_93.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_93.txt
+2021-11-04 22:49:02    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_42.txt
+2021-11-04 22:49:02    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_42.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_42.txt
+2021-11-04 22:49:06    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_21.txt
+2021-11-04 22:49:06    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_21.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_21.txt
+2021-11-04 22:49:07    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_29.txt
+2021-11-04 22:49:07    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_75.txt
+2021-11-04 22:49:07    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_75.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_75.txt
+2021-11-04 22:49:08    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_3.txt
+2021-11-04 22:49:08    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_3.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_3.txt
+2021-11-04 22:49:13    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_40.txt
+2021-11-04 22:49:13    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_67.txt
+2021-11-04 22:49:13    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_67.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_67.txt
+2021-11-04 22:49:14    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_80.txt
+2021-11-04 22:49:14    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_10.txt
+2021-11-04 22:49:14    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_26.txt
+2021-11-04 22:49:14    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_10.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_10.txt
+2021-11-04 22:49:15    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_26.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_26.txt
+2021-11-04 22:49:20    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_41.txt
+2021-11-04 22:49:20    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_41.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_41.txt
+2021-11-04 22:49:21    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_85.txt
+2021-11-04 22:49:21    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_1.txt
+2021-11-04 22:49:21    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_70.txt
+2021-11-04 22:49:21    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_70.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_70.txt
+2021-11-04 22:49:24    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_64.txt
+2021-11-04 22:49:24    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_74.txt
+2021-11-04 22:49:25    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_73.txt
+2021-11-04 22:49:25    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_73.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_73.txt
+2021-11-04 22:49:25    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_19.txt
+2021-11-04 22:49:25    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_76.txt
+2021-11-04 22:49:26    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_28.txt
+2021-11-04 22:49:26    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_28.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_28.txt
+2021-11-04 22:49:26    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_98.txt
+2021-11-04 22:49:26    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_98.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_98.txt
+2021-11-04 22:49:27    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_66.txt
+2021-11-04 22:49:27    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_63.txt
+2021-11-04 22:49:27    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_63.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_63.txt
+2021-11-04 22:49:31    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_88.txt
+2021-11-04 22:49:31    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_32.txt
+2021-11-04 22:49:31    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_32.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_32.txt
+2021-11-04 22:49:32    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_37.txt
+2021-11-04 22:49:32    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_48.txt
+2021-11-04 22:49:32    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_49.txt
+2021-11-04 22:49:32    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_92.txt
+2021-11-04 22:49:32    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_92.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_92.txt
+2021-11-04 22:49:33    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_55.txt
+2021-11-04 22:49:33    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_55.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_55.txt
+2021-11-04 22:49:35    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_44.txt
+2021-11-04 22:49:35    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_60.txt
+2021-11-04 22:49:35    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_60.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_60.txt
+2021-11-04 22:49:36    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_30.txt
+2021-11-04 22:49:36    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_34.txt
+2021-11-04 22:49:36    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_34.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_34.txt
+2021-11-04 22:49:37    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_69.txt
+2021-11-04 22:49:37    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_69.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_69.txt
+2021-11-04 22:49:43    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_83.txt
+2021-11-04 22:49:43    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_83.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_83.txt
+2021-11-04 22:49:45    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_39.txt
+2021-11-04 22:49:45    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_57.txt
+2021-11-04 22:49:45    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_57.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_57.txt
+2021-11-04 22:49:46    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_24.txt
+2021-11-04 22:49:46    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_24.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_24.txt
+2021-11-04 22:49:47    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_2.txt
+2021-11-04 22:49:47    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_53.txt
+2021-11-04 22:49:47    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_53.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_53.txt
+2021-11-04 22:49:49    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_46.txt
+2021-11-04 22:49:49    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_46.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_46.txt
+2021-11-04 22:49:51    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_93.txt
+2021-11-04 22:49:51    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_61.txt
+2021-11-04 22:49:51    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_15.txt
+2021-11-04 22:49:51    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_15.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_15.txt
+2021-11-04 22:49:52    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_23.txt
+2021-11-04 22:49:52    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_82.txt
+2021-11-04 22:49:52    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_23.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_23.txt
+2021-11-04 22:49:53    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_82.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_82.txt
+2021-11-04 22:49:54    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_75.txt
+2021-11-04 22:49:54    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_45.txt
+2021-11-04 22:49:54    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_45.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_45.txt
+2021-11-04 22:49:57    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_42.txt
+2021-11-04 22:49:58    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_71.txt
+2021-11-04 22:49:58    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_71.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_71.txt
+2021-11-04 22:49:59    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_16.txt
+2021-11-04 22:50:00    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_84.txt
+2021-11-04 22:50:00    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_84.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_84.txt
+2021-11-04 22:50:05    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_13.txt
+2021-11-04 22:50:05    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_21.txt
+2021-11-04 22:50:06    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_51.txt
+2021-11-04 22:50:06    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_51.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_51.txt
+2021-11-04 22:50:06    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_94.txt
+2021-11-04 22:50:07    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_94.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_94.txt
+2021-11-04 22:50:09    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_4.txt
+2021-11-04 22:50:09    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_7.txt
+2021-11-04 22:50:09    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_7.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_7.txt
+2021-11-04 22:50:11    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_67.txt
+2021-11-04 22:50:12    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_98.txt
+2021-11-04 22:50:12    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_59.txt
+2021-11-04 22:50:12    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_59.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_59.txt
+2021-11-04 22:50:13    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_17.txt
+2021-11-04 22:50:13    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_17.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_17.txt
+2021-11-04 22:50:16    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_70.txt
+2021-11-04 22:50:16    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_5.txt
+2021-11-04 22:50:16    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_5.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_5.txt
+2021-11-04 22:50:19    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_41.txt
+2021-11-04 22:50:19    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_54.txt
+2021-11-04 22:50:19    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_54.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_54.txt
+2021-11-04 22:50:20    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_26.txt
+2021-11-04 22:50:20    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_79.txt
+2021-11-04 22:50:20    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_79.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_79.txt
+2021-11-04 22:50:21    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_92.txt
+2021-11-04 22:50:21    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_38.txt
+2021-11-04 22:50:21    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_38.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_38.txt
+2021-11-04 22:50:24    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_10.txt
+2021-11-04 22:50:25    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_86.txt
+2021-11-04 22:50:25    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_86.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_86.txt
+2021-11-04 22:50:26    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_55.txt
+2021-11-04 22:50:26    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_47.txt
+2021-11-04 22:50:26    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_47.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_47.txt
+2021-11-04 22:50:27    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_63.txt
+2021-11-04 22:50:28    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_91.txt
+2021-11-04 22:50:28    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_91.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_91.txt
+2021-11-04 22:50:29    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_73.txt
+2021-11-04 22:50:29    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_22.txt
+2021-11-04 22:50:29    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_22.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_22.txt
+2021-11-04 22:50:31    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_3.txt
+2021-11-04 22:50:31    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_77.txt
+2021-11-04 22:50:31    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_77.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_77.txt
+2021-11-04 22:50:32    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_32.txt
+2021-11-04 22:50:33    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_9.txt
+2021-11-04 22:50:33    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_9.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_9.txt
+2021-11-04 22:50:33    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_60.txt
+2021-11-04 22:50:33    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_34.txt
+2021-11-04 22:50:33    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_20.txt
+2021-11-04 22:50:33    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_20.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_20.txt
+2021-11-04 22:50:34    Running a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_100.txt
+2021-11-04 22:50:34    Running an external tool, command: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/mafft/mafft --localpair --maxiterate 1000 --ep 0.123 --quiet --thread 40 --anysymbol /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/decomposition/subset_100.txt > /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/temp_subalignment_subset_100.txt
+2021-11-04 22:50:36    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_69.txt
+2021-11-04 22:50:41    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_83.txt
+2021-11-04 22:50:43    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_57.txt
+2021-11-04 22:50:44    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_24.txt
+2021-11-04 22:50:44    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_28.txt
+2021-11-04 22:50:47    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_45.txt
+2021-11-04 22:50:50    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_82.txt
+2021-11-04 22:50:52    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_71.txt
+2021-11-04 22:50:54    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_94.txt
+2021-11-04 22:50:58    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_53.txt
+2021-11-04 22:51:03    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_84.txt
+2021-11-04 22:51:03    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_23.txt
+2021-11-04 22:51:05    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_46.txt
+2021-11-04 22:51:05    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_51.txt
+2021-11-04 22:51:06    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_59.txt
+2021-11-04 22:51:09    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_54.txt
+2021-11-04 22:51:12    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_15.txt
+2021-11-04 22:51:12    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_91.txt
+2021-11-04 22:51:12    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_38.txt
+2021-11-04 22:51:13    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_47.txt
+2021-11-04 22:51:13    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_86.txt
+2021-11-04 22:51:14    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_100.txt
+2021-11-04 22:51:14    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_79.txt
+2021-11-04 22:51:17    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_77.txt
+2021-11-04 22:51:19    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_22.txt
+2021-11-04 22:51:20    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_17.txt
+2021-11-04 22:51:24    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_7.txt
+2021-11-04 22:51:27    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_20.txt
+2021-11-04 22:51:28    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_5.txt
+2021-11-04 22:51:35    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/subalignments/subalignment_subset_9.txt
+2021-11-04 22:51:40    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_1_mafft.txt
+2021-11-04 22:51:40    Feeding backbone /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_1_mafft.txt to the graph..
+2021-11-04 22:51:44    Constructed backbone alignment map from /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_1_mafft.txt
+2021-11-04 22:52:17    Fed backbone /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_1_mafft.txt to the graph.
+2021-11-04 22:52:20    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_4_mafft.txt
+2021-11-04 22:52:20    Feeding backbone /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_4_mafft.txt to the graph..
+2021-11-04 22:52:21    Constructed backbone alignment map from /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_4_mafft.txt
+2021-11-04 22:52:32    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_3_mafft.txt
+2021-11-04 22:52:34    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_8_mafft.txt
+2021-11-04 22:52:34    Fed backbone /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_4_mafft.txt to the graph.
+2021-11-04 22:52:35    Feeding backbone /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_3_mafft.txt to the graph..
+2021-11-04 22:52:35    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_10_mafft.txt
+2021-11-04 22:52:35    Constructed backbone alignment map from /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_3_mafft.txt
+2021-11-04 22:52:39    Task for /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_6_mafft.txt threw an exception:
+[Errno 1] Operation not permitted
+2021-11-04 22:52:39    Traceback (most recent call last):
+  File "/usr/lib/python3.8/shutil.py", line 788, in move
+    os.rename(src, real_dst)
+PermissionError: [Errno 13] Permission denied: '/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/temp_backbone_6_mafft.txt' -> '/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_6_mafft.txt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/task.py", line 59, in run
+    func(**self.taskArgs)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/external_tools.py", line 26, in runCommand
+    shutil.move(srcPath, destPath)
+  File "/usr/lib/python3.8/shutil.py", line 802, in move
+    copy_function(src, real_dst)
+  File "/usr/lib/python3.8/shutil.py", line 433, in copy2
+    copystat(src, dst, follow_symlinks=follow_symlinks)
+  File "/usr/lib/python3.8/shutil.py", line 372, in copystat
+    lookup("utime")(dst, ns=(st.st_atime_ns, st.st_mtime_ns),
+PermissionError: [Errno 1] Operation not permitted
+
+2021-11-04 22:52:39    Task manager found a failed task: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_6_mafft.txt
+2021-11-04 22:52:40    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_5_mafft.txt
+2021-11-04 22:52:41    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_2_mafft.txt
+2021-11-04 22:52:42    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_9_mafft.txt
+2021-11-04 22:52:42    Fed backbone /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_3_mafft.txt to the graph.
+2021-11-04 22:52:42    Feeding backbone /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_8_mafft.txt to the graph..
+2021-11-04 22:52:42    Constructed backbone alignment map from /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_8_mafft.txt
+2021-11-04 22:52:43    Completed a task, output file: /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_7_mafft.txt
+2021-11-04 22:52:46    Fed backbone /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_8_mafft.txt to the graph.
+2021-11-04 22:52:46    Task for /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93.txt threw an exception:
+[Errno 1] Operation not permitted
+2021-11-04 22:52:46    Traceback (most recent call last):
+  File "/usr/lib/python3.8/shutil.py", line 788, in move
+    os.rename(src, real_dst)
+PermissionError: [Errno 13] Permission denied: '/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/temp_backbone_6_mafft.txt' -> '/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_6_mafft.txt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/task.py", line 59, in run
+    func(**self.taskArgs)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/align/aligner.py", line 52, in runAlignmentTask
+    mergeSubalignments(context)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/align/merge/merger.py", line 23, in mergeSubalignments
+    buildGraph(context)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/align/merge/graph_build/graph_builder.py", line 44, in buildGraph
+    buildMatrix(context)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/align/merge/graph_build/graph_builder.py", line 97, in buildMatrix
+    for backboneTask in task.asCompleted(context.backboneTasks):
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/task.py", line 91, in asCompleted
+    yield from controller.asCompleted(tasks)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/controller.py", line 24, in asCompleted
+    finished, unfinished = checkWhatFinished(unfinished)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/controller.py", line 40, in checkWhatFinished
+    finished.append(t) if t.checkFinished() else unfinished.append(t)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/task.py", line 74, in checkFinished
+    self.future.result()
+  File "/usr/lib/python3.8/concurrent/futures/_base.py", line 432, in result
+    return self.__get_result()
+  File "/usr/lib/python3.8/concurrent/futures/_base.py", line 388, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/manager.py", line 82, in runTaskManager
+    dealWithErrors()
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/manager.py", line 95, in dealWithErrors
+    task.future.result()
+  File "/usr/lib/python3.8/concurrent/futures/_base.py", line 432, in result
+    return self.__get_result()
+  File "/usr/lib/python3.8/concurrent/futures/_base.py", line 388, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/manager.py", line 219, in runTask
+    task.run()
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/task.py", line 59, in run
+    func(**self.taskArgs)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/external_tools.py", line 26, in runCommand
+    shutil.move(srcPath, destPath)
+  File "/usr/lib/python3.8/shutil.py", line 802, in move
+    copy_function(src, real_dst)
+  File "/usr/lib/python3.8/shutil.py", line 433, in copy2
+    copystat(src, dst, follow_symlinks=follow_symlinks)
+  File "/usr/lib/python3.8/shutil.py", line 372, in copystat
+    lookup("utime")(dst, ns=(st.st_atime_ns, st.st_mtime_ns),
+PermissionError: [Errno 1] Operation not permitted
+
+2021-11-04 22:52:46    Task for /mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/alignedv2.txt threw an exception:
+[Errno 1] Operation not permitted
+2021-11-04 22:52:46    Traceback (most recent call last):
+  File "/usr/lib/python3.8/shutil.py", line 788, in move
+    os.rename(src, real_dst)
+PermissionError: [Errno 13] Permission denied: '/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/temp_backbone_6_mafft.txt' -> '/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_6_mafft.txt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/task.py", line 59, in run
+    func(**self.taskArgs)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/align/aligner.py", line 52, in runAlignmentTask
+    mergeSubalignments(context)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/align/merge/merger.py", line 23, in mergeSubalignments
+    buildGraph(context)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/align/merge/graph_build/graph_builder.py", line 37, in buildGraph
+    context.awaitSubalignments()
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/align/alignment_context.py", line 52, in awaitSubalignments
+    task.awaitTasks(self.subalignmentTasks)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/task.py", line 94, in awaitTasks
+    controller.awaitTasks(tasks)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/controller.py", line 34, in awaitTasks
+    observeTaskManager()
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/controller.py", line 53, in observeTaskManager
+    runTask(task)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/manager.py", line 219, in runTask
+    task.run()
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/task.py", line 59, in run
+    func(**self.taskArgs)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/align/aligner.py", line 52, in runAlignmentTask
+    mergeSubalignments(context)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/align/merge/merger.py", line 23, in mergeSubalignments
+    buildGraph(context)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/align/merge/graph_build/graph_builder.py", line 44, in buildGraph
+    buildMatrix(context)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/align/merge/graph_build/graph_builder.py", line 97, in buildMatrix
+    for backboneTask in task.asCompleted(context.backboneTasks):
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/task.py", line 91, in asCompleted
+    yield from controller.asCompleted(tasks)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/controller.py", line 24, in asCompleted
+    finished, unfinished = checkWhatFinished(unfinished)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/controller.py", line 40, in checkWhatFinished
+    finished.append(t) if t.checkFinished() else unfinished.append(t)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/task.py", line 74, in checkFinished
+    self.future.result()
+  File "/usr/lib/python3.8/concurrent/futures/_base.py", line 432, in result
+    return self.__get_result()
+  File "/usr/lib/python3.8/concurrent/futures/_base.py", line 388, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/manager.py", line 82, in runTaskManager
+    dealWithErrors()
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/manager.py", line 95, in dealWithErrors
+    task.future.result()
+  File "/usr/lib/python3.8/concurrent/futures/_base.py", line 432, in result
+    return self.__get_result()
+  File "/usr/lib/python3.8/concurrent/futures/_base.py", line 388, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/manager.py", line 219, in runTask
+    task.run()
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/task.py", line 59, in run
+    func(**self.taskArgs)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/external_tools.py", line 26, in runCommand
+    shutil.move(srcPath, destPath)
+  File "/usr/lib/python3.8/shutil.py", line 802, in move
+    copy_function(src, real_dst)
+  File "/usr/lib/python3.8/shutil.py", line 433, in copy2
+    copystat(src, dst, follow_symlinks=follow_symlinks)
+  File "/usr/lib/python3.8/shutil.py", line 372, in copystat
+    lookup("utime")(dst, ns=(st.st_atime_ns, st.st_mtime_ns),
+PermissionError: [Errno 1] Operation not permitted
+
+2021-11-04 22:52:46    MAGUS aborted with an exception..
+2021-11-04 22:52:46    Traceback (most recent call last):
+  File "/usr/lib/python3.8/shutil.py", line 788, in move
+    os.rename(src, real_dst)
+PermissionError: [Errno 13] Permission denied: '/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/temp_backbone_6_mafft.txt' -> '/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/outputsv2/subalignments/subalignment_subset_93/graph/backbone_6_mafft.txt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "./MAGUS-master/magus.py", line 29, in main
+    mainAlignmentTask()
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/align/aligner.py", line 30, in mainAlignmentTask
+    task.awaitTask()
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/task.py", line 47, in awaitTask
+    awaitTasks([self])
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/task.py", line 94, in awaitTasks
+    controller.awaitTasks(tasks)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/controller.py", line 34, in awaitTasks
+    observeTaskManager()
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/controller.py", line 53, in observeTaskManager
+    runTask(task)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/manager.py", line 219, in runTask
+    task.run()
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/task.py", line 59, in run
+    func(**self.taskArgs)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/align/aligner.py", line 52, in runAlignmentTask
+    mergeSubalignments(context)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/align/merge/merger.py", line 23, in mergeSubalignments
+    buildGraph(context)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/align/merge/graph_build/graph_builder.py", line 37, in buildGraph
+    context.awaitSubalignments()
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/align/alignment_context.py", line 52, in awaitSubalignments
+    task.awaitTasks(self.subalignmentTasks)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/task.py", line 94, in awaitTasks
+    controller.awaitTasks(tasks)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/controller.py", line 34, in awaitTasks
+    observeTaskManager()
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/controller.py", line 53, in observeTaskManager
+    runTask(task)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/manager.py", line 219, in runTask
+    task.run()
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/task.py", line 59, in run
+    func(**self.taskArgs)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/align/aligner.py", line 52, in runAlignmentTask
+    mergeSubalignments(context)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/align/merge/merger.py", line 23, in mergeSubalignments
+    buildGraph(context)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/align/merge/graph_build/graph_builder.py", line 44, in buildGraph
+    buildMatrix(context)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/align/merge/graph_build/graph_builder.py", line 97, in buildMatrix
+    for backboneTask in task.asCompleted(context.backboneTasks):
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/task.py", line 91, in asCompleted
+    yield from controller.asCompleted(tasks)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/controller.py", line 24, in asCompleted
+    finished, unfinished = checkWhatFinished(unfinished)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/controller.py", line 40, in checkWhatFinished
+    finished.append(t) if t.checkFinished() else unfinished.append(t)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/task.py", line 74, in checkFinished
+    self.future.result()
+  File "/usr/lib/python3.8/concurrent/futures/_base.py", line 432, in result
+    return self.__get_result()
+  File "/usr/lib/python3.8/concurrent/futures/_base.py", line 388, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/manager.py", line 82, in runTaskManager
+    dealWithErrors()
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/manager.py", line 95, in dealWithErrors
+    task.future.result()
+  File "/usr/lib/python3.8/concurrent/futures/_base.py", line 432, in result
+    return self.__get_result()
+  File "/usr/lib/python3.8/concurrent/futures/_base.py", line 388, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/manager.py", line 219, in runTask
+    task.run()
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tasks/task.py", line 59, in run
+    func(**self.taskArgs)
+  File "/mnt/c/Users/bvukh/OneDrive/Desktop/MAGUS/MAGUS-master/tools/external_tools.py", line 26, in runCommand
+    shutil.move(srcPath, destPath)
+  File "/usr/lib/python3.8/shutil.py", line 802, in move
+    copy_function(src, real_dst)
+  File "/usr/lib/python3.8/shutil.py", line 433, in copy2
+    copystat(src, dst, follow_symlinks=follow_symlinks)
+  File "/usr/lib/python3.8/shutil.py", line 372, in copystat
+    lookup("utime")(dst, ns=(st.st_atime_ns, st.st_mtime_ns),
+PermissionError: [Errno 1] Operation not permitted
+
+2021-11-04 22:52:46    Waiting for 0 tasks to finish..
